@@ -9,4 +9,4 @@ input.onSound(DetectedSound.Quiet, function () {
     basic.pause(10)
 })
 let strip: neopixel.Strip = null
-strip = neopixel.create(DigitalPin.P14, 24, NeoPixelMode.RGB)
+strip = neopixel.create(DigitalPin.P1, 24, NeoPixelMode.RGB)
